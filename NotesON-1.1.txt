@@ -1,0 +1,257 @@
+Starting Matrix
+[
+2
+1
+ℎ
+−
+6
+3
+𝑘
+]
+[ 
+2
+−6
+​
+  
+1
+3
+​
+  
+h
+k
+​
+ ]
+We want to eliminate the 
+−
+6
+−6 in the first column of Row 2.
+
+Step 1: Multiply Row 1 by a Constant
+To match the magnitude of the 
+−
+6
+−6 in Row 2, multiply Row 1 by 
+3
+3, as 
+3
+×
+2
+=
+6
+3×2=6. The scaled Row 1 becomes:
+
+3
+⋅
+𝑅
+1
+=
+[
+6
+3
+3
+ℎ
+]
+3⋅R 
+1
+​
+ =[633h]
+Step 2: Add the Scaled Row 1 to Row 2
+To eliminate 
+−
+6
+−6 in Row 2, add the scaled Row 1 to Row 2 (
+𝑅
+2
+→
+𝑅
+2
++
+3
+⋅
+𝑅
+1
+R 
+2
+​
+ →R 
+2
+​
+ +3⋅R 
+1
+​
+ ).
+
+Perform the operation for each element in Row 2:
+
+First column: 
+−
+6
++
+6
+=
+0
+−6+6=0
+Second column: 
+3
++
+3
+=
+6
+3+3=6
+Augmented column: 
+𝑘
++
+3
+ℎ
+k+3h
+The updated matrix is:
+
+[
+2
+1
+ℎ
+0
+6
+𝑘
++
+3
+ℎ
+]
+[ 
+2
+0
+​
+  
+1
+6
+​
+  
+h
+k+3h
+​
+ ]
+Step 3: Analyze Consistency
+The second row now corresponds to:
+
+6
+𝑥
+2
+=
+𝑘
++
+3
+ℎ
+6x 
+2
+​
+ =k+3h
+Consistency Conditions:
+If 
+𝑘
++
+3
+ℎ
+=
+0
+k+3h=0:
+
+The second row becomes 
+6
+𝑥
+2
+=
+0
+6x 
+2
+​
+ =0, so 
+𝑥
+2
+=
+0
+x 
+2
+​
+ =0.
+The system is consistent.
+If 
+𝑘
++
+3
+ℎ
+≠
+0
+k+3h
+
+=0:
+
+The second row is valid and gives a solution for 
+𝑥
+2
+=
+𝑘
++
+3
+ℎ
+6
+x 
+2
+​
+ = 
+6
+k+3h
+​
+ .
+The system is still consistent because there is no contradiction.
+Why Add, Not Subtract?
+When eliminating terms, the goal is to cancel out the target value (in this case, 
+−
+6
+−6) by creating a value with the opposite sign. Since the scaled Row 1 gives 
+6
+6 in the first column, we add it to 
+−
+6
+−6 in Row 2:
+
+−
+6
++
+6
+=
+0
+−6+6=0
+Final Answer
+The updated matrix is:
+
+[
+2
+1
+ℎ
+0
+6
+𝑘
++
+3
+ℎ
+]
+[ 
+2
+0
+​
+  
+1
+6
+​
+  
+h
+k+3h
+​
+ ]
+The system is consistent for all values of 
+ℎ
+h and 
+𝑘
+k because it always produces a valid solution.
+
+Let me know if you have more questions or want additional clarification!
