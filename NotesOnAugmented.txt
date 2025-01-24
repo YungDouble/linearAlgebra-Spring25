@@ -1,0 +1,396 @@
+Given System:
+2
+𝑥
+1
++
+𝑥
+2
+=
+ℎ
+2x 
+1
+​
+ +x 
+2
+​
+ =h
+−
+6
+𝑥
+1
++
+3
+𝑥
+2
+=
+𝑘
+−6x 
+1
+​
+ +3x 
+2
+​
+ =k
+Step 1: Write the Augmented Matrix
+[
+2
+1
+ℎ
+−
+6
+3
+𝑘
+]
+[ 
+2
+−6
+​
+  
+1
+3
+​
+  
+h
+k
+​
+ ]
+Step 2: Eliminate the First Term of Row 2
+To eliminate the 
+−
+6
+𝑥
+1
+−6x 
+1
+​
+  in Row 2, multiply Row 1 by 
+3
+3 and add it to Row 2. Perform:
+
+𝑅
+2
+→
+𝑅
+2
++
+(
+−
+6
+)
+⋅
+(
+1
+/
+2
+⋅
+𝑅
+1
+)
+R 
+2
+​
+ →R 
+2
+​
+ +(−6)⋅(1/2⋅R 
+1
+​
+ )
+That gives:
+
+
+
+
+
+
+
+You said:
+ok can we keep going I want to see the matrix progression
+ChatGPT said:
+ChatGPT
+Let’s carefully progress through the matrix steps to solve the system without dividing.
+
+Starting Augmented Matrix:
+[
+2
+1
+ℎ
+−
+6
+3
+𝑘
+]
+[ 
+2
+−6
+​
+  
+1
+3
+​
+  
+h
+k
+​
+ ]
+Step 1: Eliminate 
+−
+6
+𝑥
+1
+−6x 
+1
+​
+  in Row 2
+To eliminate 
+−
+6
+𝑥
+1
+−6x 
+1
+​
+ , multiply Row 1 by 
+3
+3 and add it to Row 2:
+
+𝑅
+2
+→
+𝑅
+2
++
+3
+⋅
+𝑅
+1
+R 
+2
+​
+ →R 
+2
+​
+ +3⋅R 
+1
+​
+ 
+Performing the row operation:
+
+New Row 2: 
+−
+6
++
+3
+(
+2
+)
+=
+0
+,
+3
++
+3
+(
+1
+)
+=
+6
+,
+𝑘
++
+3
+ℎ
+=
+𝑘
++
+3
+ℎ
+.
+New Row 2:  
+−6+3(2)
+3+3(1)
+k+3h
+​
+  
+=0,
+=6,
+=k+3h.
+​
+ 
+The updated matrix is:
+
+[
+2
+1
+ℎ
+0
+6
+𝑘
++
+3
+ℎ
+]
+[ 
+2
+0
+​
+  
+1
+6
+​
+  
+h
+k+3h
+​
+ ]
+Step 2: Analyze Consistency
+The second row corresponds to the equation:
+
+6
+𝑥
+2
+=
+𝑘
++
+3
+ℎ
+6x 
+2
+​
+ =k+3h
+Case 1: 
+𝑘
++
+3
+ℎ
+=
+0
+k+3h=0
+If 
+𝑘
++
+3
+ℎ
+=
+0
+k+3h=0, then:
+
+6
+𝑥
+2
+=
+0
+  
+⟹
+  
+𝑥
+2
+=
+0
+6x 
+2
+​
+ =0⟹x 
+2
+​
+ =0
+The system is consistent.
+
+Case 2: 
+𝑘
++
+3
+ℎ
+≠
+0
+k+3h
+
+=0
+If 
+𝑘
++
+3
+ℎ
+≠
+0
+k+3h
+
+=0, then:
+
+6
+𝑥
+2
+=
+𝑘
++
+3
+ℎ
+6x 
+2
+​
+ =k+3h
+This means 
+𝑥
+2
+x 
+2
+​
+  exists and can be solved, so the system is still consistent.
+
+Final Answer:
+The system is consistent for all values of 
+ℎ
+h and 
+𝑘
+k because there is no contradiction at any step.
+
+The progression of the matrix was:
+
+Initial matrix:
+[
+2
+1
+ℎ
+−
+6
+3
+𝑘
+]
+[ 
+2
+−6
+​
+  
+1
+3
+​
+  
+h
+k
+​
+ ]
+After elimination:
+[
+2
+1
+ℎ
+0
+6
+𝑘
++
+3
+ℎ
+]
+[ 
+2
+0
+​
+  
+1
+6
+​
+  
+h
+k+3h
+​
+ ]
