@@ -1,0 +1,311 @@
+Matrix multiplication is a fundamental operation in linear algebra, combining two matrices to produce a new matrix. This operation is widely used in various fields, including computer graphics, physics, and economics.
+
+Conditions for Matrix Multiplication:
+
+Dimensions: To multiply two matrices, the number of columns in the first matrix must equal the number of rows in the second matrix. If matrix A is of size 
+𝑚
+×
+𝑛
+m×n and matrix B is of size 
+𝑛
+×
+𝑝
+n×p, their product, matrix C, will be of size 
+𝑚
+×
+𝑝
+m×p.
+How to Multiply Matrices:
+
+Element Calculation: The element in the 
+𝑖
+i-th row and 
+𝑗
+j-th column of the resulting matrix C is calculated by taking the dot product of the 
+𝑖
+i-th row of matrix A and the 
+𝑗
+j-th column of matrix B.
+
+Mathematically, this is expressed as:
+
+𝑐
+𝑖
+𝑗
+=
+∑
+𝑘
+=
+1
+𝑛
+𝑎
+𝑖
+𝑘
+×
+𝑏
+𝑘
+𝑗
+c 
+ij
+​
+ =∑ 
+k=1
+n
+​
+ a 
+ik
+​
+ ×b 
+kj
+​
+ 
+
+Where 
+𝑐
+𝑖
+𝑗
+c 
+ij
+​
+  is the element in the 
+𝑖
+i-th row and 
+𝑗
+j-th column of matrix C, 
+𝑎
+𝑖
+𝑘
+a 
+ik
+​
+  is the element in the 
+𝑖
+i-th row and 
+𝑘
+k-th column of matrix A, and 
+𝑏
+𝑘
+𝑗
+b 
+kj
+​
+  is the element in the 
+𝑘
+k-th row and 
+𝑗
+j-th column of matrix B.
+
+Example:
+
+Consider the following matrices A and B:
+
+𝐴
+=
+(
+1
+2
+3
+4
+5
+6
+)
+A=( 
+1
+4
+​
+  
+2
+5
+​
+  
+3
+6
+​
+ )
+
+𝐵
+=
+(
+7
+8
+9
+10
+11
+12
+)
+B= 
+​
+  
+7
+9
+11
+​
+  
+8
+10
+12
+​
+  
+​
+ 
+
+Matrix A is of size 
+2
+×
+3
+2×3, and matrix B is of size 
+3
+×
+2
+3×2. Their product, matrix C, will be of size 
+2
+×
+2
+2×2.
+
+To find the element in the first row and first column of C (
+𝑐
+11
+c 
+11
+​
+ ):
+
+𝑐
+11
+=
+(
+1
+×
+7
+)
++
+(
+2
+×
+9
+)
++
+(
+3
+×
+11
+)
+=
+7
++
+18
++
+33
+=
+58
+c 
+11
+​
+ =(1×7)+(2×9)+(3×11)=7+18+33=58
+
+Similarly, for the first row and second column (
+𝑐
+12
+c 
+12
+​
+ ):
+
+𝑐
+12
+=
+(
+1
+×
+8
+)
++
+(
+2
+×
+10
+)
++
+(
+3
+×
+12
+)
+=
+8
++
+20
++
+36
+=
+64
+c 
+12
+​
+ =(1×8)+(2×10)+(3×12)=8+20+36=64
+
+Continuing this process for all elements, we get:
+
+𝐶
+=
+(
+58
+64
+139
+154
+)
+C=( 
+58
+139
+​
+  
+64
+154
+​
+ )
+
+Key Properties of Matrix Multiplication:
+
+Associativity: 
+𝐴
+(
+𝐵
+𝐶
+)
+=
+(
+𝐴
+𝐵
+)
+𝐶
+A(BC)=(AB)C
+
+Distributivity: 
+𝐴
+(
+𝐵
++
+𝐶
+)
+=
+𝐴
+𝐵
++
+𝐴
+𝐶
+A(B+C)=AB+AC
+
+Non-Commutativity: In general, 
+𝐴
+𝐵
+≠
+𝐵
+𝐴
+AB
+
+=BA
+
+For a more detailed explanation and additional examples, you can refer to the article on Matrix Multiplication.
+
+Additionally, this video provides a step-by-step guide on how to multiply matrices:
